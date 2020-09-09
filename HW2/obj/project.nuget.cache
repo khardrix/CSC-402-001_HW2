@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VpZwvpl4s9woOqTaylChHpi1zkRDusicihBbGM0ew3LQPSeyiVMbIP8E/lS/9v57QxxT1/ItNj95tqOkZwfn+w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\RiderProjects\\HW2\\HW2\\HW2.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\fsharp.core\\4.7.1\\fsharp.core.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
