@@ -63,13 +63,13 @@ let rect = Rectangle(3.0, 4.0);;
 
 // Problem #5
 let makeShape (s : string) (a : float) (b : float option) (c : float option) =
-    if (s = "Circle" && isShape (Circle a) && b = None && c = None) then
+    if (s = "Circle" && isShape(Circle a) && b = None && c = None) then
         Some (Circle a)
-    else if (s = "Square" && isShape (Square a) && b = None && c = None) then
+    else if (s = "Square" && isShape(Square a) && b = None && c = None) then
          Some (Square a)
-    else if (s = "Rectangle" && isShape (Rectangle(a, b)) && c = None) then
+    else if (s = "Rectangle" && isShape(Rectangle(a, b) && c = None) then
         Some (Rectangle(a, b))
-    else if (s = "Triangle" && isShape (Triangle (a, b, c))) then
+    else if (s = "Triangle" && isShape(Triangle(a, b, c)) then
         Some (Triangle(a, b, c))
     else
         None;;
