@@ -69,7 +69,12 @@ let makeShape (s : string) (a : float) (b : float option) (c : float option) =
     else
         
         
-        
+(*
+let makeShape (s : string) (a : float) (b : float option) (c : float option) =
+    if s = "Circle" && isShape (Circle a) && b = None && c = None then
+        Some (Circle a)
+    else if s = "Rectangle" && isShape (Rectangle(a, b)) && ...
+*)
     
 (*
 if(b = None && c = None) then
